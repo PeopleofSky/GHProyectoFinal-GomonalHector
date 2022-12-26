@@ -14,17 +14,7 @@
   filter: blur(2px);
   position: absolute;
   top: -100px;
-  -webkit-animation: fall 5s linear infinite;
-          animation: fall 5s linear infinite;
-}
-
-@-webkit-keyframes fall {
-  0% {
-    top: -100px;
-  }
-  100% {
-    top: 100vh;
-  }
+  animation: fall 5s linear infinite;
 }
 
 @keyframes fall {
@@ -133,16 +123,12 @@ main {
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
-    -webkit-clip-path: circle(0 at center);
-            clip-path: circle(0 at center);
-    transition: -webkit-clip-path 1s ease-in-out;
+    clip-path: circle(0 at center);
     transition: clip-path 1s ease-in-out;
-    transition: clip-path 1s ease-in-out, -webkit-clip-path 1s ease-in-out;
     background-color: #6c4ab6;
   }
   .navinput:checked + .containernav nav {
-    -webkit-clip-path: circle(100% at center);
-            clip-path: circle(100% at center);
+    clip-path: circle(100% at center);
   }
   .containernav nav ul li {
     display: flex;
@@ -286,44 +272,16 @@ a {
   top: 45%;
   left: 5%;
   border-radius: 100px 20px 20px 100px;
-  -webkit-animation: animada 15s linear infinite;
-          animation: animada 15s linear infinite;
-  -webkit-animation-delay: calc(3s * var(--delay));
-          animation-delay: calc(3s * var(--delay));
+  animation: animada 15s linear infinite;
+  animation-delay: calc(3s * var(--delay));
 }
 
 .wrap:hover .carda {
-  -webkit-animation-play-state: paused;
-          animation-play-state: paused;
+  animation-play-state: paused;
 }
 
 .wrap .carda:last-child {
-  -webkit-animation-delay: calc(-3s * var(--delay));
-          animation-delay: calc(-3s * var(--delay));
-}
-
-@-webkit-keyframes animada {
-  0% {
-    opacity: 0;
-    transform: translateY(100%) scale(0.5);
-  }
-  5%, 20% {
-    opacity: 0.4;
-    transform: translateY(100%) scale(0.7);
-  }
-  25%, 40% {
-    opacity: 1;
-    transform: translateY(0%) scale(1);
-    pointer-events: auto;
-  }
-  45%, 60% {
-    opacity: 1;
-    transform: translateY(-100%) scale(0.7);
-  }
-  65%, 100% {
-    opacity: 0;
-    transform: translateY(-100%) scale(0.5);
-  }
+  animation-delay: calc(-3s * var(--delay));
 }
 
 @keyframes animada {
@@ -366,8 +324,7 @@ a {
   height: 100%;
   width: 100%;
   border-radius: 50%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .carda .contenidoo {
@@ -628,8 +585,7 @@ h2 {
 .btn:hover {
   transition: 0.2s;
   transform: scale(1.3);
-  -webkit-animation: ease-in-out;
-          animation: ease-in-out;
+  animation: ease-in-out;
 }
 
 .maincontainer2 {
@@ -687,8 +643,7 @@ h2 {
   filter: blur(2px);
   position: absolute;
   top: -100px;
-  -webkit-animation: fall 5s linear infinite;
-          animation: fall 5s linear infinite;
+  animation: fall 5s linear infinite;
 }
 
 @keyframes fall {
