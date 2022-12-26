@@ -1,0 +1,25 @@
+
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+
+
+}
+.nieve{
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border-radius: 50%;
+    filter: blur(2px);
+    position: absolute;
+    top: -100px;
+    animation: fall 5s linear infinite;
+}
+@keyframes fall {
+0% { top: -100px;}
+100% { top: 100vh;}
+}

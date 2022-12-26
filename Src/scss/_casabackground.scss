@@ -1,0 +1,52 @@
+.imghouse{
+    height: 100vh;
+    background-image: url(/assets/imagenes/index/img1200x810.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 75%;
+    background-position-y: bottom
+}
+
+.mainindex{
+    background-image: url(/assets/imagenes/index/backgroundcolorblue1400x800hh.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.imgdoor {
+    width: 130px;
+    position: relative;
+    left: 46vw;
+    bottom: -53.5vh;
+}
+  @media(max-width:1920){
+    .imgdoor {
+        position: relative;
+        width: 130px;
+        left: 46vw;
+        bottom: -53.5vh;
+      }
+
+  }
+  @media(max-width:1440){
+    .imgdoor {
+        width: 120px;
+        position: relative;
+        left: 48.5vw;
+        bottom: -53vh;
+    }
+
+}
+
+
+
+
+
+@media(max-width:1200px){
+
+    .mainindex{
+        background-image: url(/assets/imagenes/index/backgroundcolorblue1400x800hh.jpg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 30%;
+    }
+}

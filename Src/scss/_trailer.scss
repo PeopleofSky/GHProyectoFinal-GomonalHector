@@ -1,0 +1,54 @@
+.containervideo{
+    margin-top: 15%;
+    z-index: 8;
+}
+.videotexto{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+}
+.videosyt {
+    width: 80%;
+    height: 45vh;
+    z-index: 7;
+}
+.h3{
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+}
+.roww{
+    margin: 0px 50px;
+}
+
+@media(max-width:900px){
+    .containervideo{
+        margin-top: 40%;
+    }
+    .videocard{
+    flex-direction: column;
+margin: 0px 20px;}
+    .lead2{
+        font-size: 12px;
+    }
+}
+@media(max-width:600px){
+    .containervideo{
+        margin-top: 20%;
+    }
+}
+
+@media(max-width:450px){
+.videosyt{
+    height: 30vh;
+}
+}
+
+@media(max-width:450px){
+.videocard{
+    margin: 0px 10px;}
+
+    .videosyt{
+        width: 100%;
+        height: 20vh;
+    }
+}

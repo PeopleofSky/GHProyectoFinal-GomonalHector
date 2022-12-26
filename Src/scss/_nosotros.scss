@@ -1,0 +1,57 @@
+/*NOSOTROS*/
+h2{
+
+    font-family: 'Amatic SC', cursive;
+    color: aliceblue;
+    text-align: center;
+    font-size: 55px;
+}
+.sobrenosotros{
+    color: aliceblue;
+    background-image: linear-gradient(to right, #6c4ab6fe, rgba(0, 0, 0, 0.278));
+    margin-top: 100px;
+}
+
+.containerinfo{
+    margin-top: 10%;
+    color: aliceblue;
+   
+}
+
+.card{
+    background-color: rgba(255, 255, 255, 0);
+    background-image: linear-gradient(to top, #6c4ab6fe, rgba(0, 0, 0, 0.278));
+
+}
+.card .btn{
+    margin-left: 10%;
+}
+
+.p-info{
+    padding: 21px;
+    margin-top: 3rem;
+    font-size: 14px;
+}
+@media(max-width:1600px){
+.containerinfo{
+    margin-top: 6%;
+}
+}
+
+
+@media(max-width:1250px){
+    .containerinfo {
+        margin-top: 15%;
+    }
+}
+
+@media(max-width:900px){
+    .containerinfo {
+        margin-top: 30%;
+    }
+}
+@media(max-width:600px){
+.containerinfo{
+    margin-top: 15%;
+}
+}
