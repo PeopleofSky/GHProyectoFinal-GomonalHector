@@ -209,7 +209,7 @@ a {
 }
 .imghouse {
   height: 100vh;
-  background-image: url(/assets/imagenes/index/img1200x810.png);
+  background-image: url(../imagenes/index/img1200x810.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 75%;
@@ -217,7 +217,7 @@ a {
 }
 
 .mainindex {
-  background-image: url(/assets/imagenes/index/backgroundcolorblue1400x800hh.jpg);
+  background-image: url(../imagenes/index/backgroundcolorblue1400x800hh.jpg);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -247,7 +247,7 @@ a {
 }
 @media (max-width: 1200px) {
   .mainindex {
-    background-image: url(/assets/imagenes/index/backgroundcolorblue1400x800hh.jpg);
+    background-image: url(../imagenes/index/backgroundcolorblue1400x800hh.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 30%;
